@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #FFFF;
+    color: #34495E;
+    box-shadow: 0px 2px 2px 0 #85929E;
+}
+
+h3 {
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.btns {
+    display: flex;
+    margin-left: 90rem;
+}
+
+.btns a {
+    text-decoration: none;
+    color: #34495E;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #34495E;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btns a:hover {
+    background-color: #34495E;
+    color: #FFFF;
+}

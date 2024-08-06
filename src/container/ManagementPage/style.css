@@ -1,0 +1,98 @@
+.big-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    width: 28rem;
+    height: 16.5rem;
+    margin: 3rem 0 2rem 6rem;
+    border-radius: 50px;
+    background: #ffff;
+    box-shadow: 8px 8px 10px #d5d5d5,
+        -8px -8px 10px #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-name {
+    font-size: 2rem;
+}
+
+.cards-length {
+    font-size: 4rem;
+}
+
+.calendar {
+    margin: 3rem 5rem 2rem 8rem;
+}
+
+.head {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    background-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #283747;
+}
+
+.head-end {
+    display: flex;
+    flex-direction: row;
+    margin-left: 78%;
+    cursor: pointer;
+}
+
+.mail {
+    margin-right: 2rem;
+}
+
+.pie-chart {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 2rem;
+    margin: 2rem 0 0 8rem;
+}
+
+.sm-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-rows {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.users {
+    width: 25%;
+    height: 48rem;
+    border-radius: 30px;
+    background: #ffff;
+    box-shadow: 8px 8px 10px #d5d5d5,
+        -8px -8px 10px #ebebeb;
+    margin: 3rem 3rem 1rem 0rem;
+    text-align: center;
+}

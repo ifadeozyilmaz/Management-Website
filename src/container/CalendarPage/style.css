@@ -1,0 +1,40 @@
+@import "rsuite/dist/rsuite.css";
+
+ .calendar-todo-list {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+   
+  }
+  
+  .calendar-todo-list li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .calendar-todo-item-badge {
+    vertical-align: top;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+  }   
+
+ 
+.event-btn{
+  background-color: #FFF;
+}
+
+.calendar-header{
+    height: 8rem;
+    width: 100%;
+    font-size: 2rem;
+    color: #FFFF;
+    background-color:#34495E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+

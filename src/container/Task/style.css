@@ -1,0 +1,54 @@
+.header{
+    height: 9rem;
+    width: 100%;
+    font-size: 2rem;
+    color: #FFFF;
+    background-color:#34495E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.create-btn{
+    padding: 1rem 2rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    color: #FFFF;
+    background-color: #85929E;
+    cursor: pointer;
+}
+
+form{
+    color: #34495E;
+}
+
+.taskName{
+    width: 100%;
+    height: 2rem;
+}
+
+.taskDesc{
+    width: 100%;
+    height: 10rem;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem 0 0 1rem;
+}
+
+.modal-btn {
+    height: 3rem;
+    color: #34495E;
+    width: 5rem;
+    margin-left: 1rem;
+}
+

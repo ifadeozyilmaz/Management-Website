@@ -1,0 +1,64 @@
+.project-header{
+    height: 8rem;
+    width: 100%;
+    font-size: 2rem;
+    color: #FFFF;
+    background-color:#34495E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25rem);
+    gap: 3rem;
+}
+
+.project-box{
+    width: 25rem;
+    height: 16.5rem;
+    margin: 3rem 0 2rem 6rem;
+    border-radius: 50px;
+    background: #ffff;
+    box-shadow: 8px 8px 10px #d5d5d5,
+        -8px -8px 10px #ebebeb;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.project-name{
+    font-size: 2rem;
+    list-style: none;
+    color: #34495E;
+}
+
+.project-name:hover{
+    color: #3d5f81;
+    text-decoration: none;
+}
+
+.detail-box{
+    width: 70%;
+    height: 40rem;
+    margin: 3rem;
+    border-radius: 5rem;
+    background: #ffff;
+    box-shadow: 2px 2px 1px #d5d5d5,
+        -2px -2px 1px #ebebeb;
+    text-align: center;
+    color: #34495E;
+}
+
+.detail-desc{
+    padding: 2rem 8rem 2rem 8rem;
+    font-size: 1.5rem;
+
+}
+
+.progress{
+    width: 25rem;
+    height: 2rem;
+    margin-top: 22rem;
+}
